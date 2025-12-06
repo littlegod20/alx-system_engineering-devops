@@ -43,3 +43,7 @@ Prints the result of adding 128 to the value stored in the environment variable 
 ### 9-divide_and_rule
 
 Prints the result of dividing the value stored in the environment variable `POWER` by the value stored in the environment variable `DIVIDE`, followed by a newline. Uses bash arithmetic expansion `$((...))` to perform the division.
+
+### 10-love_exponent_breath
+
+Prints the result of raising the value stored in the environment variable `BREATH` to the power of the value stored in the environment variable `LOVE`, followed by a newline. Uses bash arithmetic expansion `$((...))` with the `**` operator to perform exponentiation.

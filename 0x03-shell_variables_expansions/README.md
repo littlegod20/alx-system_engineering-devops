@@ -39,3 +39,7 @@ Creates a new global variable (environment variable) named `BEST` with the value
 ### 8-true_knowledge
 
 Prints the result of adding 128 to the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a newline. Uses bash arithmetic expansion `$((...))` to perform the addition.
+
+### 9-divide_and_rule
+
+Prints the result of dividing the value stored in the environment variable `POWER` by the value stored in the environment variable `DIVIDE`, followed by a newline. Uses bash arithmetic expansion `$((...))` to perform the division.

@@ -47,3 +47,7 @@ Prints the result of dividing the value stored in the environment variable `POWE
 ### 10-love_exponent_breath
 
 Prints the result of raising the value stored in the environment variable `BREATH` to the power of the value stored in the environment variable `LOVE`, followed by a newline. Uses bash arithmetic expansion `$((...))` with the `**` operator to perform exponentiation.
+
+### 11-binary_to_decimal
+
+Converts a binary number (base 2) stored in the environment variable `BINARY` to decimal (base 10), followed by a newline. Uses bash arithmetic expansion `$((...))` with base conversion syntax `2#number` to convert from binary to decimal.

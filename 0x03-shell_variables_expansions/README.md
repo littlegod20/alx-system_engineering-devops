@@ -59,3 +59,7 @@ Prints all possible combinations of two lowercase letters (a-z), except "oo", on
 ### 13-print_float
 
 Prints a number stored in the environment variable `NUM` with exactly two decimal places, followed by a newline. Uses `printf` with the format specifier `%.2f` to format the number to two decimal places.
+
+### 100-decimal_to_hexadecimal
+
+Converts a decimal number (base 10) stored in the environment variable `DECIMAL` to hexadecimal (base 16), followed by a newline. Uses `printf` with the format specifier `%x` to convert and display the number in lowercase hexadecimal format.

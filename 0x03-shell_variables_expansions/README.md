@@ -51,3 +51,7 @@ Prints the result of raising the value stored in the environment variable `BREAT
 ### 11-binary_to_decimal
 
 Converts a binary number (base 2) stored in the environment variable `BINARY` to decimal (base 10), followed by a newline. Uses bash arithmetic expansion `$((...))` with base conversion syntax `2#number` to convert from binary to decimal.
+
+### 12-combinations
+
+Prints all possible combinations of two lowercase letters (a-z), except "oo", one per line, in alphabetical order starting with "aa". Uses brace expansion `{a..z}{a..z}` to generate all combinations, then filters out "oo" using `grep -v`. The script file contains a maximum of 64 characters.

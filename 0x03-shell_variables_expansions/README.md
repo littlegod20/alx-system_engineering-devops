@@ -31,3 +31,7 @@ Lists all local variables, environment variables, and functions in the current s
 ### 6-create_local_variable
 
 Creates a new local variable named `BEST` with the value `School`. When sourced, this script creates the local variable in the current shell session.
+
+### 7-create_global_variable
+
+Creates a new global variable (environment variable) named `BEST` with the value `School`. Uses the `export` command to make the variable available to child processes. When sourced, this script creates the global variable in the current shell session.

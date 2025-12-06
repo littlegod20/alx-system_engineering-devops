@@ -71,3 +71,7 @@ Encodes and decodes text using the ROT13 encryption algorithm. ROT13 is a simple
 ### 102-odd
 
 Prints every other line from the input, starting with the first line. The script reads from stdin and uses `sed` with the pattern `1~2p` to print every other line (lines 1, 3, 5, 7, etc.).
+
+### 103-water_and_stir
+
+Adds two numbers stored in environment variables `WATER` and `STIR`, where each number is in a custom base system. `WATER` is in base 5 (using digits "water" where w=0, a=1, t=2, e=3, r=4), and `STIR` is in base 4 (using digits "stir" where s=0, t=1, i=2, r=3). The result is displayed in base 8 (using digits "bestchol" where b=0, e=1, s=2, t=3, c=4, h=5, o=6, l=7). The script uses `tr` to map custom digits to standard digits, bash arithmetic for base conversion and addition, and `printf` with `%o` to convert to octal, then maps back to custom digits.

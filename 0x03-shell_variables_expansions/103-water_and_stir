@@ -1,0 +1,2 @@
+#!/bin/bash
+wa=$(echo $WATER|tr "water" "01234");wa=$((5#$wa));st=$(echo $STIR|tr -d "."|tr "stir" "0123");st=$((4#$st));sum=$((wa+st));printf "%o\n" $sum|tr "01234567" "bestchol"

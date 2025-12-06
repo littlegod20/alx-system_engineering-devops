@@ -63,3 +63,7 @@ Prints a number stored in the environment variable `NUM` with exactly two decima
 ### 100-decimal_to_hexadecimal
 
 Converts a decimal number (base 10) stored in the environment variable `DECIMAL` to hexadecimal (base 16), followed by a newline. Uses `printf` with the format specifier `%x` to convert and display the number in lowercase hexadecimal format.
+
+### 101-rot13
+
+Encodes and decodes text using the ROT13 encryption algorithm. ROT13 is a simple letter substitution cipher that replaces each letter with the letter 13 positions ahead in the alphabet. Since ROT13 is its own inverse, the same function can be used for both encoding and decoding. The script reads from stdin and uses the `tr` command to translate characters: `A-Za-z` to `N-ZA-Mn-za-m`, leaving all other characters (punctuation, spaces, etc.) unchanged.

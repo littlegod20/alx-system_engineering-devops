@@ -35,3 +35,7 @@ Creates a new local variable named `BEST` with the value `School`. When sourced,
 ### 7-create_global_variable
 
 Creates a new global variable (environment variable) named `BEST` with the value `School`. Uses the `export` command to make the variable available to child processes. When sourced, this script creates the global variable in the current shell session.
+
+### 8-true_knowledge
+
+Prints the result of adding 128 to the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a newline. Uses bash arithmetic expansion `$((...))` to perform the addition.

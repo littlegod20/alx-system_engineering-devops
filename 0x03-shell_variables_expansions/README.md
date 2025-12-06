@@ -23,3 +23,7 @@ Counts the number of directories in the PATH environment variable. The script co
 ### 4-global_variables
 
 Lists all environment variables in the current shell session. Uses the `env` command to display all environment variables in the format `VARIABLE=value`, one per line.
+
+### 5-local_variables
+
+Lists all local variables, environment variables, and functions in the current shell session. Uses the `set` command to display all shell variables (both local and environment) and functions in the format `VARIABLE=value`, one per line.

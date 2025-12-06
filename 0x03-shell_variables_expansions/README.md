@@ -19,3 +19,7 @@ Adds `/action` to the PATH environment variable. The `/action` directory will be
 ### 3-paths
 
 Counts the number of directories in the PATH environment variable. The script converts colons to newlines using `tr` and counts the resulting lines with `wc -l`.
+
+### 4-global_variables
+
+Lists all environment variables in the current shell session. Uses the `env` command to display all environment variables in the format `VARIABLE=value`, one per line.

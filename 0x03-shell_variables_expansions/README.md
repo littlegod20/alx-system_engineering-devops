@@ -27,3 +27,7 @@ Lists all environment variables in the current shell session. Uses the `env` com
 ### 5-local_variables
 
 Lists all local variables, environment variables, and functions in the current shell session. Uses the `set` command to display all shell variables (both local and environment) and functions in the format `VARIABLE=value`, one per line.
+
+### 6-create_local_variable
+
+Creates a new local variable named `BEST` with the value `School`. When sourced, this script creates the local variable in the current shell session.

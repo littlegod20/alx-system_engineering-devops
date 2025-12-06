@@ -67,3 +67,7 @@ Converts a decimal number (base 10) stored in the environment variable `DECIMAL`
 ### 101-rot13
 
 Encodes and decodes text using the ROT13 encryption algorithm. ROT13 is a simple letter substitution cipher that replaces each letter with the letter 13 positions ahead in the alphabet. Since ROT13 is its own inverse, the same function can be used for both encoding and decoding. The script reads from stdin and uses the `tr` command to translate characters: `A-Za-z` to `N-ZA-Mn-za-m`, leaving all other characters (punctuation, spaces, etc.) unchanged.
+
+### 102-odd
+
+Prints every other line from the input, starting with the first line. The script reads from stdin and uses `sed` with the pattern `1~2p` to print every other line (lines 1, 3, 5, 7, etc.).

@@ -55,3 +55,7 @@ Converts a binary number (base 2) stored in the environment variable `BINARY` to
 ### 12-combinations
 
 Prints all possible combinations of two lowercase letters (a-z), except "oo", one per line, in alphabetical order starting with "aa". Uses brace expansion `{a..z}{a..z}` to generate all combinations, then filters out "oo" using `grep -v`. The script file contains a maximum of 64 characters.
+
+### 13-print_float
+
+Prints a number stored in the environment variable `NUM` with exactly two decimal places, followed by a newline. Uses `printf` with the format specifier `%.2f` to format the number to two decimal places.

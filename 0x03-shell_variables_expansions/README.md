@@ -15,3 +15,7 @@ Prints "hello" followed by the current Linux user's username. Uses the `$USER` e
 ### 2-path
 
 Adds `/action` to the PATH environment variable. The `/action` directory will be the last directory the shell looks into when searching for a program. When sourced, this script appends `:/action` to the current PATH.
+
+### 3-paths
+
+Counts the number of directories in the PATH environment variable. The script converts colons to newlines using `tr` and counts the resulting lines with `wc -l`.
